@@ -1,0 +1,5 @@
+/data/
+/varianty
+*.db
+*.db-shm
+*.db-wal

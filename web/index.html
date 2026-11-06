@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f7f5ef">
+  <meta name="description" content="Options — a little truth, a lot of bluffing. Make a quiz and play with friends.">
+  <title>Options — The believable bluffing game</title>
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/i18n.js" defer></script>
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Options home"><span class="brand-icon">o<span>o</span></span> options<span class="brand-dot">.</span></a>
+    <nav aria-label="Main navigation"><a href="#library" data-nav="library" data-i18n-shell>Your quizzes</a><button class="text-button" id="rules-button" data-i18n-shell>How to play <span aria-hidden="true">↗</span></button><label class="language-picker"><span class="sr-only" id="language-label">Language / Мова</span><select id="language" aria-labelledby="language-label"><option value="en">EN</option><option value="uk">УКР</option></select></label></nav>
+  </header>
+  <main id="app"></main>
+  <footer class="site-footer" data-i18n-shell><span>A little truth. A lot of bluffing.</span><span>Made for good company <span class="footer-star">✳</span></span></footer>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+  <dialog id="rules" data-i18n-shell><button class="dialog-close" aria-label="Close game rules">×</button><span class="eyebrow">THE SHORT VERSION</span><h2>Keep your friends<br>guessing.</h2><ol class="rules-list"><li><b>Make it believable.</b><p>The host prepares 10 questions, each with a real answer and a convincing lie.</p></li><li><b>Bluff for 30 seconds.</b><p>Players submit an answer. Know the truth? You can still write it. Miss the timer? Your option sits this round out.</p></li><li><b>Find the truth.</b><p>You have 30 seconds to vote for one option. You can’t vote for your own submission. Duplicate answers stay separate — choose carefully.</p></li><li><b>See who fooled whom.</b><p>The host reveals players in any order. Points are awarded on each reveal: correct answer +2; host lie −1; another player’s bluff +1 to its author. A duplicate of the truth still counts as a player’s bluff. No vote earns 0.</p></li></ol><p class="muted">The host starts each question after revealing every player. After all 10, the most points wins. Ties share the win.</p></dialog>
+</body>
+</html>

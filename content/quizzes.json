@@ -1,0 +1,693 @@
+[
+  {
+    "id": "builtin-uk-animals",
+    "title": "Зоологія без сорому",
+    "language": "uk",
+    "builtin": true,
+    "createdAt": "2026-11-06T00:00:00Z",
+    "questions": [
+      {
+        "prompt": "Яку форму має послід вомбата — справжнього перфекціоніста серед тварин?",
+        "correct": "Кубики",
+        "lie": "Овальні гранули",
+        "source": "https://www.utas.edu.au/about/news-and-stories/articles/2021/1109-scientists-get-to-the-bottom-of-wombat-cubed-poo-mystery"
+      },
+      {
+        "prompt": "У якого сумчастого відбитки пальців дуже схожі на людські?",
+        "correct": "Коала",
+        "lie": "Кенгуру",
+        "source": "https://www.australia.com/en-us/things-to-do/wildlife/facts-about-koalas.html"
+      },
+      {
+        "prompt": "Яким кольором світилося хутро качкодзьоба під ультрафіолетом у дослідженні музейних зразків?",
+        "correct": "Синьо-зеленим",
+        "lie": "Помаранчевим",
+        "source": "https://www.degruyterbrill.com/de/document/doi/10.1515/mammalia-2020-0027/html"
+      },
+      {
+        "prompt": "Якою частиною тіла метелики можуть відчувати смак?",
+        "correct": "Лапками",
+        "lie": "Вусиками",
+        "source": "https://www.nhm.ac.uk/discover/how-to-make-simple-butterfly-feeder.html"
+      },
+      {
+        "prompt": "Скільки шийних хребців у жирафи, попри всю її довжину?",
+        "correct": "Сім",
+        "lie": "Чотирнадцять",
+        "source": "https://animals.sandiegozoo.org/animals/giraffe?qt-animals_page_content_tabs=1"
+      },
+      {
+        "prompt": "Що надає хутру лінивця зеленуватого відтінку в дощовий сезон?",
+        "correct": "Водорості на шерсті",
+        "lie": "Зелений пігмент у шерсті",
+        "source": "https://animals.sandiegozoo.org/animals/two-toed-sloth?vm=r"
+      },
+      {
+        "prompt": "Що може робити серце лісової жаби під час зимового замерзання тіла?",
+        "correct": "Тимчасово зупинятися",
+        "lie": "Битися вдвічі швидше",
+        "source": "https://cpw.state.co.us/species/wood-frog"
+      },
+      {
+        "prompt": "Де у дорослого аксолотля розташовані зябра?",
+        "correct": "Назовні, по боках голови",
+        "lie": "Усередині, під зябровими кришками",
+        "source": "https://animals.sandiegozoo.org/animals/axolotl"
+      },
+      {
+        "prompt": "Чим фламінго вигодовують маленьких пташенят?",
+        "correct": "Молокоподібним секретом травного тракту",
+        "lie": "Подрібненими креветками",
+        "source": "https://animals.sandiegozoo.org/animals/flamingo?qt-animals_page_content_tabs=1"
+      },
+      {
+        "prompt": "Що вкриває тіло морського коника під тонкою шкірою замість звичайної луски?",
+        "correct": "Кісткові пластинки",
+        "lie": "Хрящові лусочки",
+        "source": "https://environment.bm/seahorses"
+      }
+    ]
+  },
+  {
+    "id": "builtin-uk-ocean",
+    "title": "Океан: хто це взагалі вигадав?",
+    "language": "uk",
+    "builtin": true,
+    "createdAt": "2026-11-06T00:00:00Z",
+    "questions": [
+      {
+        "prompt": "Якого кольору насичена киснем кров восьминога?",
+        "correct": "Синього",
+        "lie": "Червоного",
+        "source": "https://ocean.si.edu/ocean-life/invertebrates/octopuses-squids-and-relatives"
+      },
+      {
+        "prompt": "До кого мечохвости ближчі за спорідненістю, ніж до справжніх крабів?",
+        "correct": "Павуків і скорпіонів",
+        "lie": "Креветок і омарів",
+        "source": "https://ocean.si.edu/ocean-life/invertebrates/amazing-horseshoe-crab"
+      },
+      {
+        "prompt": "Що додатково вражає здобич після надшвидкого удару рака-богомола?",
+        "correct": "Схлопування бульбашки у воді",
+        "lie": "Електричний розряд",
+        "source": "https://www.nhm.ac.uk/discover/mantis-shrimps.html"
+      },
+      {
+        "prompt": "На що риба-папуга перетворює проковтнуті уламки коралів після травлення?",
+        "correct": "На білий пісок",
+        "lie": "На перламутрові камінці",
+        "source": "https://oceanservice.noaa.gov/facts/sand.html"
+      },
+      {
+        "prompt": "Що деякі морські огірки викидають із тіла, захищаючись від хижака?",
+        "correct": "Частину внутрішніх органів",
+        "lie": "Хмару чорнила",
+        "source": "https://oceanservice.noaa.gov/facts/seacuke.html"
+      },
+      {
+        "prompt": "Де в омара розташовані структури, схожі на зуби, що перетирають їжу?",
+        "correct": "У шлунку",
+        "lie": "На внутрішньому боці клешень",
+        "source": "https://www.fisheries.noaa.gov/national/outreach-and-education/fun-facts-about-luscious-lobsters"
+      },
+      {
+        "prompt": "Без якого органа медузи обходяться, хоча можуть узгоджено плавати?",
+        "correct": "Мозку",
+        "lie": "Шлунка",
+        "source": "https://www.noaa.gov/stories/fact-vs-fiction-3-things-you-thought-you-knew-about-jellyfish"
+      },
+      {
+        "prompt": "У якій незвичній позі дослідники спостерігали дрімоту кашалотів?",
+        "correct": "Вертикально у воді",
+        "lie": "Лежачи на морському дні",
+        "source": "https://news.st-andrews.ac.uk/archive/drifting-off-to-sleep/"
+      },
+      {
+        "prompt": "Що робить міксина власним тілом, щоб допомогти прибрати слиз?",
+        "correct": "Зав’язує себе у вузол",
+        "lie": "Вивертає шкіру навиворіт",
+        "source": "https://www.nhm.ac.uk/discover/how-much-slime-can-a-hagfish-make.html"
+      },
+      {
+        "prompt": "Чим насправді є довгий «ріг» нарвала?",
+        "correct": "Зубом",
+        "lie": "Кістковим виростом черепа",
+        "source": "https://oceanexplorer.noaa.gov/ocean-fact/narwhal/"
+      }
+    ]
+  },
+  {
+    "id": "builtin-uk-food",
+    "title": "Кухня з подвійним дном",
+    "language": "uk",
+    "builtin": true,
+    "createdAt": "2026-11-06T00:00:00Z",
+    "questions": [
+      {
+        "prompt": "До якого типу плодів ботаніки відносять банан?",
+        "correct": "Ягода",
+        "lie": "Кістянка",
+        "source": "https://www.kew.org/plants/cavendish-banana"
+      },
+      {
+        "prompt": "До якої родини належить рослина, що дає справжню ваніль?",
+        "correct": "Орхідні",
+        "lie": "Лілійні",
+        "source": "https://www.kew.org/plants/vanilla"
+      },
+      {
+        "prompt": "Що таке дрібні мариновані каперси — ті, що не каперсові ягоди?",
+        "correct": "Нерозкриті квіткові бутони",
+        "lie": "Недозрілі плоди",
+        "source": "https://www.rhs.org.uk/plants/92942/capparis-spinosa/details"
+      },
+      {
+        "prompt": "Яку частину квітки крокусу збирають для шафрану?",
+        "correct": "Приймочки маточки",
+        "lie": "Пелюстки",
+        "source": "https://www.rhs.org.uk/herbs/saffron"
+      },
+      {
+        "prompt": "Яку частину дерева ми їмо під назвою «кориця»?",
+        "correct": "Внутрішню кору",
+        "lie": "Висушений корінь",
+        "source": "https://www.kew.org/read-and-watch/marianne-north-gallery-a-spice-sensation"
+      },
+      {
+        "prompt": "Що об’єднує мускатний горіх і пряність мацис?",
+        "correct": "Це різні частини одного плоду",
+        "lie": "Це плоди споріднених дерев",
+        "source": "https://www.indianspices.com/indianspices/spice-catalog/nutmeg-mace.html"
+      },
+      {
+        "prompt": "Що являє собою пряність гвоздика до того, як потрапити в баночку?",
+        "correct": "Висушені квіткові бутони",
+        "lie": "Висушене насіння",
+        "source": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A601421-1/general-information"
+      },
+      {
+        "prompt": "До якої родини рослин належить арахіс, який удає із себе горіх?",
+        "correct": "Бобові",
+        "lie": "Горіхові",
+        "source": "https://www.kew.org/plants/peanut"
+      },
+      {
+        "prompt": "Чим насправді є кавове «зерно» з погляду ботаніки?",
+        "correct": "Насіниною плоду",
+        "lie": "Висушеним цілим плодом",
+        "source": "https://www.kew.org/plants/arabica-coffee"
+      },
+      {
+        "prompt": "Звідки отримують натуральний червоний барвник кармін?",
+        "correct": "З комах кошенілі",
+        "lie": "З бурякового соку",
+        "source": "https://www.fda.gov/food/color-additives-information-consumers/color-additives-foods"
+      }
+    ]
+  },
+  {
+    "id": "builtin-uk-plants",
+    "title": "Ботаніка з характером",
+    "language": "uk",
+    "builtin": true,
+    "createdAt": "2026-11-06T00:00:00Z",
+    "questions": [
+      {
+        "prompt": "З чого формується один ананас?",
+        "correct": "З плодів багатьох квіток, що зростаються",
+        "lie": "З однієї великої зав’язі",
+        "source": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A12322-2/general-information"
+      },
+      {
+        "prompt": "Де міститься горіх кеш’ю відносно соковитого «яблука кеш’ю»?",
+        "correct": "Зовні, прикріплений знизу",
+        "lie": "Усередині, як кісточка персика",
+        "source": "https://fileserver-az.core.ac.uk/download/pdf/48027480.pdf"
+      },
+      {
+        "prompt": "Яким органом рослини є бульба картоплі?",
+        "correct": "Видозміненим стеблом",
+        "lie": "Потовщеним коренем",
+        "source": "https://www.gov.mb.ca/agriculture/crops/crop-management/pubs/guide-to-commercial-potato-production.pdf"
+      },
+      {
+        "prompt": "До якої групи рослин належить бамбук, попри свої дерев’янисті стебла?",
+        "correct": "Злакові трави",
+        "lie": "Пальми",
+        "source": "https://www.kew.org/kew-gardens/whats-in-the-gardens/bamboo-garden-and-minka-house"
+      },
+      {
+        "prompt": "Як мімоза сором’язлива зазвичай реагує на дотик до листочків?",
+        "correct": "Складає листочки",
+        "lie": "Розкриває квітки",
+        "source": "https://www.nparks.gov.sg/florafaunaweb/flora/2/2/2225"
+      },
+      {
+        "prompt": "Скільки швидких торкань чутливих волосків зазвичай потрібно, щоб венерина мухоловка зачинила пастку?",
+        "correct": "Два",
+        "lie": "Одне",
+        "source": "https://www.kew.org/read-and-watch/venus-flytrap-creepy-carnivorous-plant"
+      },
+      {
+        "prompt": "Яким запахом аморфофалус титанічний приваблює запилювачів?",
+        "correct": "Гнилого м’яса",
+        "lie": "Перестиглих фруктів",
+        "source": "https://www.chicagobotanic.org/titan/faq"
+      },
+      {
+        "prompt": "Скільки постійних листків має доросла вельвічія, хоча з віком вони розриваються на стрічки?",
+        "correct": "Два",
+        "lie": "Дванадцять",
+        "source": "https://pza.sanbi.org/welwitschia-mirabilis"
+      },
+      {
+        "prompt": "Що баобаб запасає у своєму масивному стовбурі?",
+        "correct": "Воду",
+        "lie": "Рослинну олію",
+        "source": "https://animals.sandiegozoo.org/animals/baobab"
+      },
+      {
+        "prompt": "Завдяки чому краплі води змивають бруд із листка лотоса?",
+        "correct": "Мікроструктурі його поверхні",
+        "lie": "Мильному секрету рослини",
+        "source": "https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A605422-1/general-information"
+      }
+    ]
+  },
+  {
+    "id": "builtin-uk-space",
+    "title": "Космос без здорового глузду",
+    "language": "uk",
+    "builtin": true,
+    "createdAt": "2026-11-06T00:00:00Z",
+    "questions": [
+      {
+        "prompt": "Повний оберт навколо осі якої планети триває довше, ніж її оберт навколо Сонця?",
+        "correct": "Венери",
+        "lie": "Меркурія",
+        "source": "https://spaceplace.nasa.gov/all-about-venus/en/"
+      },
+      {
+        "prompt": "Якого незвичного кольору часто буває сяйво біля Сонця під час заходу на Марсі?",
+        "correct": "Синього",
+        "lie": "Червоного",
+        "source": "https://science.nasa.gov/resource/mastcam-zs-first-martian-sunset/"
+      },
+      {
+        "prompt": "Яка планета має середню густину меншу, ніж у води?",
+        "correct": "Сатурн",
+        "lie": "Нептун",
+        "source": "https://science.nasa.gov/saturn/facts/"
+      },
+      {
+        "prompt": "Яка планета обертається навколо Сонця, ніби «лежачи на боці»?",
+        "correct": "Уран",
+        "lie": "Нептун",
+        "source": "https://science.nasa.gov/uranus/facts/"
+      },
+      {
+        "prompt": "З яких рідин переважно складаються річки та озера на поверхні Титана?",
+        "correct": "З метану й етану",
+        "lie": "Із солоної води",
+        "source": "https://www.nasa.gov/general/are-there-rivers-and-lakes-on-other-worlds-we-asked-a-nasa-scientist/"
+      },
+      {
+        "prompt": "Що повільно відбувається із середньою відстанню між Землею та Місяцем?",
+        "correct": "Місяць віддаляється",
+        "lie": "Місяць наближається",
+        "source": "https://science.nasa.gov/moon/facts/"
+      },
+      {
+        "prompt": "Скільки сходів Сонця приблизно бачать із МКС за 24 години?",
+        "correct": "Шістнадцять",
+        "lie": "Два",
+        "source": "https://www.nasa.gov/international-space-station/space-station-facts-and-figures/"
+      },
+      {
+        "prompt": "На честь кого переважно називають супутники Урана?",
+        "correct": "Персонажів Шекспіра та Александра Поупа",
+        "lie": "Давньогрецьких богів і титанів",
+        "source": "https://science.nasa.gov/uranus/moons/"
+      },
+      {
+        "prompt": "Хто відкрив Уран і спочатку запропонував назву на честь короля Георга III?",
+        "correct": "Вільям Гершель",
+        "lie": "Галілео Галілей",
+        "source": "https://science.nasa.gov/uranus/facts/"
+      },
+      {
+        "prompt": "Який супутник Юпітера є найвулканічніше активним світом Сонячної системи?",
+        "correct": "Іо",
+        "lie": "Європа",
+        "source": "https://science.nasa.gov/jupiter/jupiter-moons/io/"
+      }
+    ]
+  },
+  {
+    "id": "builtin-uk-inventions",
+    "title": "Винаходи пішли не за планом",
+    "language": "uk",
+    "builtin": true,
+    "createdAt": "2026-11-06T00:00:00Z",
+    "questions": [
+      {
+        "prompt": "Чим спершу був матеріал, який став дитячою масою Play-Doh?",
+        "correct": "Засобом для чищення шпалер",
+        "lie": "Масою для виготовлення гумок",
+        "source": "https://www.thehenryford.org/collections/explore/articles/detail/articles/2022/05/04/accidental-toy-inventions"
+      },
+      {
+        "prompt": "Для чого винахідники спочатку задумали бульбашкову плівку?",
+        "correct": "Для фактурних шпалер",
+        "lie": "Для пакування скла",
+        "source": "https://www.sealedair.com/products/brand/bubble-wrap"
+      },
+      {
+        "prompt": "Що надихнуло Жоржа де Местраля на створення застібки-липучки?",
+        "correct": "Реп’яхи на одязі та шерсті собаки",
+        "lie": "Гачки пташиного пір’я",
+        "source": "https://www.velcro.co.uk/original-thinking/our-story/"
+      },
+      {
+        "prompt": "З якою технологією працював Персі Спенсер перед створенням мікрохвильової печі?",
+        "correct": "З радарами",
+        "lie": "З електричними духовками",
+        "source": "https://www.si.edu/collections/snapshot/microwave-oven"
+      },
+      {
+        "prompt": "Яку особисту проблему Арт Фрай вирішував клейкою закладкою, що привела до Post-it?",
+        "correct": "Закладки випадали зі збірника гімнів",
+        "lie": "Нотатки губилися під час телефонних розмов",
+        "source": "https://www.post-it.com/3M/en_US/post-it/contact-us/about-us/"
+      },
+      {
+        "prompt": "Що означає число 40 у назві WD-40?",
+        "correct": "Сорокову спробу створення формули",
+        "lie": "Сорок інгредієнтів у складі",
+        "source": "https://wd40.com.au/history"
+      },
+      {
+        "prompt": "Що запатентували раніше: металеві банки для консервів чи спеціальний консервний ніж?",
+        "correct": "Банки для консервів",
+        "lie": "Консервний ніж",
+        "source": "https://artsandculture.google.com/story/the-history-of-the-can-opener-museo-del-pomodoro/EAUxTv3nPqXlLQ?hl=en"
+      },
+      {
+        "prompt": "За чим стежила перша вебкамера в Кембриджі — дуже практична наука?",
+        "correct": "За кавником",
+        "lie": "За входом до комп’ютерної лабораторії",
+        "source": "https://www.cl.cam.ac.uk/coffee/qsf/timeline.html"
+      },
+      {
+        "prompt": "З якого матеріалу був корпус першого прототипу комп’ютерної миші Енгельбарта?",
+        "correct": "З дерева",
+        "lie": "З алюмінію",
+        "source": "https://www.darpa.mil/about/innovation-timeline/first-computer-mouse"
+      },
+      {
+        "prompt": "Для якої галузі спочатку розробили QR-код?",
+        "correct": "Для автомобільного виробництва",
+        "lie": "Для банківських платежів",
+        "source": "https://www.qrcode.com/en/history/?version=published"
+      }
+    ]
+  },
+  {
+    "id": "builtin-uk-geography",
+    "title": "Географія: глобус теж жартує",
+    "language": "uk",
+    "builtin": true,
+    "createdAt": "2026-11-06T00:00:00Z",
+    "questions": [
+      {
+        "prompt": "З якою країною Франція має найдовший сухопутний кордон, якщо врахувати її заморські території?",
+        "correct": "З Бразилією",
+        "lie": "З Іспанією",
+        "source": "https://questions.assemblee-nationale.fr/q15/15-31832QE.htm"
+      },
+      {
+        "prompt": "Де розташована найбільша пустеля Землі за площею?",
+        "correct": "В Антарктиді",
+        "lie": "У Північній Африці",
+        "source": "https://www.ga.gov.au/scientific-topics/national-location-information/landforms/deserts"
+      },
+      {
+        "prompt": "Яка країна повністю оточена територією Південно-Африканської Республіки?",
+        "correct": "Лесото",
+        "lie": "Есватіні",
+        "source": "https://unfccc.int/sites/default/files/resource/LESOTHO%2520INC.pdf"
+      },
+      {
+        "prompt": "Яке море визначається океанічними течіями й не має сухопутних берегів?",
+        "correct": "Саргасове",
+        "lie": "Коралове",
+        "source": "https://www.nesdis.noaa.gov/news/sargassum-algae-amid-the-sargasso-sea"
+      },
+      {
+        "prompt": "Скільки офіційних часових поясів використовує материковий Китай?",
+        "correct": "Один",
+        "lie": "П’ять",
+        "source": "https://www.timeanddate.com/time/zone/china"
+      },
+      {
+        "prompt": "Який штат США має і найзахідніші, і найсхідніші точки країни за довготою?",
+        "correct": "Аляска",
+        "lie": "Гаваї",
+        "source": "https://alaska.gov/Kids/learn/aboutgeography.htm"
+      },
+      {
+        "prompt": "Який материк перетинають і екватор, і нульовий меридіан?",
+        "correct": "Африка",
+        "lie": "Південна Америка",
+        "source": "https://education.nationalgeographic.org/resource/hemisphere/"
+      },
+      {
+        "prompt": "Що більше: найбільша ширина материкової Австралії зі сходу на захід чи діаметр Місяця?",
+        "correct": "Ширина Австралії",
+        "lie": "Діаметр Місяця",
+        "source": "https://www.ga.gov.au/scientific-topics/national-location-information/geography/extreme-points",
+        "additionalSource": "https://science.nasa.gov/moon/facts/"
+      },
+      {
+        "prompt": "Яка країна має найбільшу сумарну площу озер?",
+        "correct": "Канада",
+        "lie": "Фінляндія",
+        "source": "https://www.canada.ca/en/environment-climate-change/services/water-overview/sources/lakes.html"
+      },
+      {
+        "prompt": "Які скам’янілості знаходять у вапняках біля вершини Евересту?",
+        "correct": "Морських організмів",
+        "lie": "Пустельних ящірок",
+        "source": "https://www.sciencefocus.com/planet-earth/mount-everest-marine-ocean-fossils"
+      }
+    ]
+  },
+  {
+    "id": "builtin-uk-curiosities",
+    "title": "Побутові речі з підступом",
+    "language": "uk",
+    "builtin": true,
+    "createdAt": "2026-11-06T00:00:00Z",
+    "questions": [
+      {
+        "prompt": "Що відбувається з висотою Ейфелевої вежі під час літньої спеки?",
+        "correct": "Вона трохи збільшується",
+        "lie": "Вона трохи зменшується",
+        "source": "https://www.toureiffel.paris/en/news/history-and-culture/why-does-eiffel-tower-change-size"
+      },
+      {
+        "prompt": "Що вибухово розширюється всередині зерна, коли кукурудза стає попкорном?",
+        "correct": "Водяна пара",
+        "lie": "Повітря з порожнини зерна",
+        "source": "https://chicagoacs.org/articles/65"
+      },
+      {
+        "prompt": "Що насправді містить грифель звичайного простого олівця замість свинцю?",
+        "correct": "Графіт",
+        "lie": "Суміш свинцю й олова",
+        "source": "https://periodic-table.rsc.org/element/6/Carbon"
+      },
+      {
+        "prompt": "Частинки якого металу можуть надавати рубіновому склу червоного кольору?",
+        "correct": "Золота",
+        "lie": "Заліза",
+        "source": "https://www.nist.gov/publications/red-color-19th-century-thai-glass-studied-x-ray-and-optical-spectroscopy"
+      },
+      {
+        "prompt": "Кого Андрій Гейм і Майкл Беррі змусили левітувати магнітним полем, отримавши Іґнобелівську премію?",
+        "correct": "Жабу",
+        "lie": "Металеву кульку",
+        "source": "https://www.nobelprize.org/uploads/2018/06/geim_lecture.pdf"
+      },
+      {
+        "prompt": "Яку комаху вклеїли до журналу комп’ютера Harvard Mark II у 1947 році після збою?",
+        "correct": "Міль",
+        "lie": "Мураху",
+        "source": "https://www.americanhistory.si.edu/collections/object/nmah_334663"
+      },
+      {
+        "prompt": "Хто був у кошику повітряної кулі під час відомого версальського польоту з живими пасажирами у 1783 році?",
+        "correct": "Вівця, качка та півень",
+        "lie": "Двоє інженерів і лікар",
+        "source": "https://www.si.edu/object/experience-faite-versailles%3Anasm_A19680121000"
+      },
+      {
+        "prompt": "Чим є сухий лід, який зникає без калюжі?",
+        "correct": "Твердим вуглекислим газом",
+        "lie": "Замороженим азотом",
+        "source": "https://sp.ehs.cornell.edu/research-safety/chemical-safety/specific-chemical-hazards/cryogenic-material-safety/dry-ice-tip-sheet"
+      },
+      {
+        "prompt": "На честь кого назвали технологію Bluetooth?",
+        "correct": "Середньовічного короля Гаральда Синьозубого",
+        "lie": "Інженера Гарольда Блутона",
+        "source": "https://www.bluetooth.com/about-us/Bluetooth-origin/"
+      },
+      {
+        "prompt": "Чим є звичайне віконне скло за кімнатної температури, попри популярний міф?",
+        "correct": "Аморфним твердим тілом",
+        "lie": "Надзвичайно повільною рідиною",
+        "source": "https://info.cmog.org/frequently-asked-questions"
+      }
+    ]
+  },
+  {
+    "id": "builtin-en-nature",
+    "title": "Nature Has Absolutely No Chill",
+    "language": "en",
+    "builtin": true,
+    "createdAt": "2026-11-06T00:00:00Z",
+    "questions": [
+      {
+        "prompt": "What shape are an owl’s eyes, rather than ordinary eyeballs?",
+        "correct": "Tubes",
+        "lie": "Spheres",
+        "source": "https://www.bto.org/learn/about-birds/owls/vision"
+      },
+      {
+        "prompt": "Where does a sea otter stash food while it is still diving?",
+        "correct": "In pockets of skin under its forearms",
+        "lie": "In expandable cheek pouches",
+        "source": "https://www.montereybayaquarium.org/animals-the-ocean/animals-a-to-z/sea-otter"
+      },
+      {
+        "prompt": "How does a female echidna produce her young?",
+        "correct": "She lays an egg",
+        "lie": "She gives birth to a tiny live baby",
+        "source": "https://animals.sandiegozoo.org/animals/echidna"
+      },
+      {
+        "prompt": "Which reindeer normally grow antlers?",
+        "correct": "Both males and females",
+        "lie": "Only adult males",
+        "source": "https://sdzwildlifeexplorers.org/animals/reindeer"
+      },
+      {
+        "prompt": "Where does the tongue-supporting apparatus of many woodpeckers extend when retracted?",
+        "correct": "Around the skull",
+        "lie": "Into the chest",
+        "source": "https://abcbirds.org/news/woodpecker-tongues/"
+      },
+      {
+        "prompt": "What does a snail’s radula resemble at a microscopic scale?",
+        "correct": "A flexible ribbon covered in teeth",
+        "lie": "A pair of smooth gripping jaws",
+        "source": "https://nhm.org/stories/microscopic-look-snail-jaws"
+      },
+      {
+        "prompt": "The flamingo joint that looks like a backwards knee is actually what?",
+        "correct": "An ankle",
+        "lie": "A knee",
+        "source": "https://lazoo.org/explore-your-zoo/our-animals/birds/flamingos/"
+      },
+      {
+        "prompt": "What is the reddish liquid that hippos secrete onto their skin?",
+        "correct": "A protective secretion, not blood",
+        "lie": "Blood released to cool the skin",
+        "source": "https://animals.sandiegozoo.org/animals/hippo"
+      },
+      {
+        "prompt": "What is the giant panda’s extra-looking “thumb” actually made from?",
+        "correct": "An enlarged wrist bone",
+        "lie": "An extra finger bone",
+        "source": "https://www.nationalzoo.si.edu/animals/giant-panda"
+      },
+      {
+        "prompt": "What can a sea star push out of its body to digest a meal?",
+        "correct": "Its stomach",
+        "lie": "A tooth-covered tongue",
+        "source": "https://www.visitsealife.com/melbourne/whats-inside/animals/sea-stars-starfish/"
+      }
+    ]
+  },
+  {
+    "id": "builtin-en-origins",
+    "title": "That Cannot Be the Origin",
+    "language": "en",
+    "builtin": true,
+    "createdAt": "2026-11-06T00:00:00Z",
+    "questions": [
+      {
+        "prompt": "What business created the Michelin restaurant guide?",
+        "correct": "A tyre manufacturer",
+        "lie": "A restaurant association",
+        "source": "https://guide.michelin.com/us/en/about-us"
+      },
+      {
+        "prompt": "The Guinness Book of Records began as a promotion connected to which business?",
+        "correct": "A brewery",
+        "lie": "A newspaper publisher",
+        "source": "https://www.guinnessworldrecords.com/about-us/our-story"
+      },
+      {
+        "prompt": "What did Nintendo make when it began in 1889?",
+        "correct": "Handmade playing cards",
+        "lie": "Mechanical arcade machines",
+        "source": "https://www.nintendo.co.jp/corporate/en/history/index.html?trk=article-ssr-frontend-pulse_little-text-block"
+      },
+      {
+        "prompt": "What kind of business was Samsung at its founding in 1938?",
+        "correct": "A grocery trading store",
+        "lie": "A radio repair workshop",
+        "source": "https://www.sgsg.samsung.com/newpage/samsung_history.html"
+      },
+      {
+        "prompt": "The Danish words behind the name LEGO mean what?",
+        "correct": "Play well",
+        "lie": "Build together",
+        "source": "https://www.lego.com/en-no/aboutus/lego-group/the-lego-group-history"
+      },
+      {
+        "prompt": "Where does the name adidas come from?",
+        "correct": "The founder’s name, Adi Dassler",
+        "lie": "All Day I Dream About Sports",
+        "source": "https://www.adidas-group.com/en/faq"
+      },
+      {
+        "prompt": "What was Amazon initially called before it became Amazon?",
+        "correct": "Cadabra",
+        "lie": "Bookstream",
+        "source": "https://www.aboutamazon.com.br/noticias/noticias-da-empresa/por-que-a-amazon-tem-este-nome-veja-5-curiosidades-sobre-o-tema"
+      },
+      {
+        "prompt": "What inspired the name Google?",
+        "correct": "A googol: one followed by 100 zeroes",
+        "lie": "The phrase go global",
+        "source": "https://blog.google/company-news/inside-google/company-announcements/google-fun-facts-25th-birthday/"
+      },
+      {
+        "prompt": "In which country was the first full-length animated film, El Apóstol, released in 1917?",
+        "correct": "Argentina",
+        "lie": "The United States",
+        "source": "https://www.guinnessworldrecords.com/world-records/first-full-length-cartoon"
+      },
+      {
+        "prompt": "What enterprise did Nokia’s founding history start with in 1865?",
+        "correct": "A wood pulp mill",
+        "lie": "A telegraph equipment workshop",
+        "source": "https://www.nokia.com/system/files/files/nokia_uk_ar14_full.pdf"
+      }
+    ]
+  }
+]

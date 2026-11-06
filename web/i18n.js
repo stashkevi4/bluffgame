@@ -1,0 +1,146 @@
+'use strict';
+
+// Source-text keys keep the English UI readable. Only static template segments
+// are translated by html(); interpolated quiz content and names are untouched.
+const ukrainian = {
+  'Built-in':'Готова гра', '10 surprising questions. Ready to play.':'10 несподіваних запитань. Усе готово до гри.', 'Make a copy':'Створити копію', 'Your own quizzes':'Ваші власні вікторини', 'Ready-made games':'Готові ігри', '8 Ukrainian · 2 English · 10 questions each':'8 українською · 2 англійською · по 10 запитань', 'Available to every host. Make a copy to customize.':'Доступні кожному ведучому. Створіть копію, щоб відредагувати.' ,
+  'Options — The believable bluffing game':'Options — гра у переконливий блеф',
+  'Game room · Options':'Ігрова кімната · Options',
+  'Options home':'Головна Options', 'Main navigation':'Головна навігація',
+  'Your quizzes':'Ваші вікторини', 'How to play':'Як грати',
+  'A little truth. A lot of bluffing.':'Трохи правди. Багато блефу.',
+  'Made for good company':'Для гарної компанії',
+  'THE BELIEVABLE BLUFFING GAME':'ГРА У ПЕРЕКОНЛИВИЙ БЛЕФ',
+  'Good friends.':'Хороші друзі.', 'Great':'Майстри', 'liars.':'блефу.',
+  'One real answer. A room full of convincing lies.':'Одна правильна відповідь. Безліч переконливих вигадок.',
+  'How well can you fool your friends?':'Чи зможете ви перехитрити друзів?',
+  '1 host + your crew':'1 ведучий + друзі', '10 questions':'10 запитань', 'Play on your phone':'Грайте з телефона',
+  'One truth, many possibilities':'Одна правда, безліч варіантів',
+  'THE TRUTH':'ПРАВДА', 'Stranger than':'Дивніша, ніж', 'you think.':'ви думаєте.',
+  'A VERY GOOD LIE':'ДУЖЕ ВДАЛА ВИГАДКА', 'Sounds about':'Звучить наче', 'right. Right?':'правда. Еге ж?',
+  'Confidence is everything.':'Головне — впевненість.', 'Trust no one. Have fun.':'Не вірте нікому. Веселіться.',
+  'Choose how to play':'Оберіть свою роль', 'For the ringleader':'Для ведучого', 'Bring the questions.':'З вас — запитання.',
+  'Make a 10-question quiz, add your best lies, and get the room together. You’re in charge.':'Створіть вікторину з 10 запитань, додайте переконливі вигадки та зберіть друзів. Ви керуєте грою.',
+  'Host a game':'Стати ведучим', 'Already prepared?':'Усе готово?', 'Open your quiz':'Відкрити вікторину', 'Open your quizzes':'Відкрити вікторини',
+  'For the smooth talkers':'Для майстрів блефу', 'Bring your poker face.':'З вас — покерфейс.',
+  'Get the room code from your host, pick a name, and prepare to be very convincing.':'Дізнайтеся код у ведучого, введіть ім’я та готуйтеся блефувати переконливо.',
+  'Room code':'Код кімнати', 'CODE':'КОД', 'Your name':'Ваше ім’я', 'Join':'Приєднатися',
+  '01 &nbsp; Write a bluff':'01 &nbsp; Вигадайте відповідь', '02 &nbsp; Find the truth':'02 &nbsp; Знайдіть правду', '03 &nbsp; Take the glory':'03 &nbsp; Здобудьте перемогу',
+  'There’s a seat waiting in room':'На вас чекають у кімнаті', 'Back to game ↗':'Назад до гри ↗',
+  'YOUR COLLECTION':'ВАША КОЛЕКЦІЯ', 'A good night starts here.':'Гарний вечір починається тут.',
+  'Make it weird. Make it believable. Play it as many times as you like.':'Дивуйте, переконуйте та грайте скільки завгодно.',
+  '+ &nbsp; Create a quiz':'+ &nbsp; Створити вікторину', '10 QUESTIONS':'10 ЗАПИТАНЬ',
+  'Your questions. Your best lies.':'Ваші запитання. Ваші найкращі вигадки.', 'Start a room ↗':'Створити кімнату ↗', 'Edit':'Редагувати',
+  'Your next game night is a blank canvas.':'Наступний ігровий вечір — у ваших руках.',
+  'Create your first quiz, or start with 10 ready-to-play questions and make them your own.':'Створіть свою першу вікторину або відредагуйте 10 готових запитань.',
+  'Create a quiz ↗':'Створити вікторину ↗', 'Use the starter quiz':'Взяти готову вікторину',
+  'Your quizzes are saved on this server and linked to this browser. Keep its cookies to keep host access.':'Вікторини зберігаються на сервері та прив’язані до цього браузера. Збережіть його cookie, щоб не втратити доступ ведучого.',
+  'Curiously convincing':'Дивовижно переконливо', 'of 10 ready':'із 10 готові',
+  '← &nbsp; Your quizzes':'← &nbsp; Ваші вікторини', 'THE HOST’S NOTEBOOK':'НОТАТНИК ВЕДУЧОГО',
+  'Fine-tune the fun.':'Додайте родзинку.', 'Set the scene.':'Підготуйте гру.',
+  'Ten little questions. Endless questionable answers.':'Десять запитань. Безліч сумнівних відповідей.',
+  'Use starter questions ↗':'Додати готові запитання ↗', 'BUILD YOUR QUIZ':'СТВОРІТЬ ВІКТОРИНУ', 'Make them wonder.':'Здивуйте друзів.',
+  'Choose short, surprising answers. A great host lie should feel just plausible enough.':'Оберіть короткі й неочікувані відповіді. Гарна вигадка має здаватися правдоподібною.',
+  'Select question':'Оберіть запитання', 'Quiz title':'Назва вікторини', 'e.g. Things you should probably know':'Наприклад: «Це варто знати»',
+  'Question':'Запитання', 'The question':'Запитання',
+  'What is the tiny plastic tip on a shoelace called?':'Як називається пластиковий кінчик шнурка?',
+  '● &nbsp; The correct answer':'● &nbsp; Правильна відповідь', 'Aglet':'Аглет',
+  'The official truth. Finding this option earns +2.':'Офіційна правильна відповідь. За неї — +2 бали.',
+  '◇ &nbsp; Your convincing lie':'◇ &nbsp; Ваша переконлива вигадка', 'Lacet':'Лацет',
+  'Your trap. Picking this option costs −1.':'Ваша пастка. За цей варіант — −1 бал.',
+  '← Previous':'← Назад', 'Next question →':'Далі →', 'Save quiz ↗':'Зберегти вікторину ↗',
+  'Draft saved on this device as you type. All 10 questions are required.':'Чернетка зберігається на цьому пристрої під час введення. Заповніть усі 10 запитань.',
+  'Starter questions added. Make them your own.':'Готові запитання додано. Відредагуйте їх на свій смак.',
+  'Quiz saved. Your game night is ready.':'Вікторину збережено. Усе готово до гри.',
+  'Player':'Гравець', '(you)':'(ви)', '✓ Ready':'✓ Готово', 'Getting ready':'Готується', 'pts':'б.',
+  'Connection interrupted. Reconnecting… the server timer keeps running.':'З’єднання втрачено. Підключаємося… Таймер на сервері продовжує відлік.',
+  'HOST VIEW':'ВЕДУЧИЙ', 'PLAYER VIEW':'ГРАВЕЦЬ', 'ROOM CODE':'КОД КІМНАТИ', 'Copy room code':'Скопіювати код кімнати',
+  'THE MORE, THE MERRIER':'РАЗОМ ВЕСЕЛІШЕ', 'Gather your good liars.':'Збирайте майстрів блефу.', 'You’re in good company.':'Ви в гарній компанії.',
+  'Share the room code with your friends. Everyone joins on their own phone — no account needed.':'Поділіться кодом кімнати з друзями. Кожен грає зі свого телефона — без реєстрації.',
+  'Welcome, {name}. Get comfortable, get ready, and let the host take it from here.':'Вітаємо, {name}! Влаштовуйтеся зручніше та позначте готовність. Далі все в руках ведучого.',
+  'YOUR ROOM CODE':'ВАШ КОД КІМНАТИ', 'Copy invite ↗':'Скопіювати запрошення ↗', 'The crew ·':'Компанія ·', 'ready':'готові',
+  'The first arrival gets bragging rights.':'Перший гравець уже може собою пишатися.', 'Waiting for players to join…':'Чекаємо на гравців…',
+  'Start the first question':'Почати перше запитання', 'At least one player needs to join.':'Потрібен хоча б один гравець.',
+  'The game starts when everyone is ready.':'Гру можна почати, коли всі будуть готові.', 'Everyone’s ready. Let the bluffing begin.':'Усі готові. Час блефувати!',
+  '✓ You’re ready — tap to undo':'✓ Ви готові — натисніть, щоб скасувати', 'I’m ready':'Я готовий / готова',
+  'Waiting for the host to start the game.':'Чекаємо, поки ведучий почне гру.', 'Tap when you’re settled in.':'Натисніть, коли будете готові.',
+  'The standings':'Таблиця балів', 'Your vote ✓':'Ваш вибір ✓', 'Your bluff':'Ваша вигадка',
+  'The official truth · +2 for finding it':'Правильна відповідь · +2 бали за вибір', 'The host’s lie · −1 for picking it':'Вигадка ведучого · −1 бал за вибір',
+  '{name}’s bluff · +1 for its author per vote':'Вигадка гравця {name} · +1 автору за кожен голос', 'Picked by {names}':'Обрали: {names}',
+  'Let the players work their magic. Answers stay hidden until the timer runs out.':'Нехай гравці фантазують. Відповіді приховані до завершення таймера.',
+  'Know the answer? Write it. Don’t know? Make up something your friends might believe.':'Знаєте відповідь? Напишіть її. Не знаєте? Вигадайте щось, у що повірять друзі.',
+  'You set the question. Now sit back and watch the bluffs roll in.':'Ви підготували запитання. А тепер спостерігайте за вигадками гравців.',
+  'Voting opens automatically after 30 seconds.':'Голосування почнеться автоматично за 30 секунд.', 'Your answer is locked in.':'Відповідь прийнято.',
+  'Keep your poker face. Voting opens when time is up.':'Зберігайте покерфейс. Голосування почнеться, коли час вийде.',
+  'Your answer':'Ваша відповідь', 'Make it sound like you know…':'Пишіть так, ніби точно знаєте…', 'Lock in my answer':'Надіслати відповідь', 'Answers locked in':'Відповіді прийнято',
+  'The truth is hiding in plain sight. Players are choosing their answer.':'Правда серед цих варіантів. Гравці роблять свій вибір.',
+  'Your vote is locked in. The host will reveal results after voting ends.':'Ваш голос прийнято. Після голосування ведучий оголосить результати.',
+  'One of these is the official truth. Pick wisely — even identical answers can have different authors.':'Лише один варіант — офіційна правильна відповідь. Обирайте уважно: навіть однакові відповіді можуть мати різних авторів.',
+  'You missed the answer timer. You can still vote and earn points.':'Ви не встигли відповісти. Але ще можете голосувати та отримати бали.',
+  'Votes locked in':'Голоси прийнято', '01 · Write a bluff':'01 · Вигадайте відповідь', '02 · Find the truth':'02 · Знайдіть правду', '03 · The reveal':'03 · Розкриття',
+  'sec':'с', 'Time remaining':'Залишилося часу', 'Round complete':'Раунд завершено', 'Host-led reveal':'Ведучий розкриває', 'QUESTION':'ЗАПИТАННЯ', 'OF 10':'ІЗ 10',
+  'Choose a player to reveal their vote. Points are awarded only when you click.':'Оберіть гравця, щоб розкрити його вибір. Бали нарахуються лише після натискання.',
+  'Voting is over. The host will reveal each player’s choice, one at a time.':'Голосування завершено. Ведучий по черзі розкриватиме вибір гравців.',
+  'Waiting for the host':'Чекаємо на ведучого', 'Reveal':'Розкрити', 'Revealed':'Розкрито', 'Results revealed':'Результати розкрито',
+  'The truth is {answer}.':'Правильна відповідь — {answer}.', 'See the final results':'Переглянути підсумки', 'Start the next question':'Почати наступне запитання',
+  'Reveal every player to continue.':'Розкрийте результати всіх гравців, щоб продовжити.',
+  'Waiting for the host to reveal the final results.':'Чекаємо, поки ведучий покаже підсумки.', 'Take a breath. The host will start the next question.':'Переведіть подих. Ведучий почне наступне запитання.',
+  'Correct answer':'Правильна відповідь', 'The host’s lie':'Вигадка ведучого', 'Another player’s bluff':'Вигадка іншого гравця', 'No vote':'Не проголосував / не проголосувала',
+  'No points this time.':'Цього разу без балів.', '{name} earns +1':'{name} отримує +1', 'Your bluff fooled {name}. +1 for you!':'Гравець {name} повірив у вашу вигадку. Вам +1!',
+  'Your result is revealed.':'Ваш результат розкрито.', 'Latest reveal':'Щойно розкрито', 'No results revealed yet.':'Результати ще не розкрито.',
+  'TEN QUESTIONS. PLENTY OF LIES.':'ДЕСЯТЬ ЗАПИТАНЬ. БЕЗЛІЧ ВИГАДОК.', 'The glory goes to…':'Перемогу здобуває…', 'A shared taste of glory.':'Перемогу розділено!',
+  'points. An impressive amount of questionable confidence.':'балів. Оце так переконливість!', 'Play this quiz again ↗':'Зіграти ще раз ↗', 'Back home':'На головну',
+  'A replay creates a fresh room and resets everyone’s scores.':'Повторна гра створить нову кімнату з нульовими балами.',
+  'Ask your host for a new room code to play again.':'Для повторної гри попросіть у ведучого новий код кімнати.',
+  'Room code copied.':'Код кімнати скопійовано.', 'Invite link copied. Send it to your friends.':'Запрошення скопійовано. Надішліть його друзям.',
+  'Share {value}':'Поділіться: {value}', 'Let’s get you in.':'Приєднуймося до гри.', 'Join as a player ↗':'Приєднатися як гравець ↗', 'Home':'Головна',
+  'Quiz not found in this browser.':'Вікторину не знайдено в цьому браузері.', 'YOUR SEAT IS WAITING':'НА ВАС ЧЕКАЮТЬ',
+  'Enter a name and join the crew.':'Введіть ім’я та приєднуйтеся до компанії.', 'Finding your crew…':'Шукаємо вашу компанію…',
+  'Getting the game night ready…':'Готуємо ігровий вечір…', 'The game is taking a breath.':'Гра взяла паузу.', 'We couldn’t connect to the server.':'Не вдалося з’єднатися із сервером.', 'Try again':'Спробувати ще раз',
+  'Connection lost. Please try again.':'З’єднання втрачено. Спробуйте ще раз.', 'The server could not be reached. Please try again.':'Не вдалося з’єднатися із сервером. Спробуйте ще раз.',
+  'Something went wrong. Please try again.':'Щось пішло не так. Спробуйте ще раз.',
+  'Close game rules':'Закрити правила', 'THE SHORT VERSION':'КОРОТКО ПРО ПРАВИЛА', 'Keep your friends':'Нехай друзі', 'guessing.':'сумніваються.',
+  'Make it believable.':'Блефуйте переконливо.', 'The host prepares 10 questions, each with a real answer and a convincing lie.':'Ведучий готує 10 запитань із правильною відповіддю та переконливою вигадкою до кожного.',
+  'Bluff for 30 seconds.':'30 секунд на вигадку.', 'Players submit an answer. Know the truth? You can still write it. Miss the timer? Your option sits this round out.':'Гравці надсилають відповіді. Знаєте правду? Її теж можна написати. Не встигли? Вашого варіанта цього разу не буде.',
+  'Find the truth.':'Знайдіть правду.', 'You have 30 seconds to vote for one option. You can’t vote for your own submission. Duplicate answers stay separate — choose carefully.':'У вас 30 секунд, щоб обрати один варіант. За власну відповідь голосувати не можна. Однакові відповіді залишаються окремими варіантами — обирайте уважно.',
+  'See who fooled whom.':'Дізнайтеся, хто кого перехитрив.',
+  'The host reveals players in any order. Points are awarded on each reveal: correct answer +2; host lie −1; another player’s bluff +1 to its author. A duplicate of the truth still counts as a player’s bluff. No vote earns 0.':'Ведучий розкриває вибір гравців у довільному порядку. Бали нараховуються при розкритті: правильна відповідь +2; вигадка ведучого −1; вигадка іншого гравця +1 її автору. Дублікат правди теж вважається вигадкою гравця. Без голосу — 0 балів.',
+  'The host starts each question after revealing every player. After all 10, the most points wins. Ties share the win.':'Ведучий починає наступне запитання після розкриття всіх гравців. Після 10 запитань перемагає той, хто набрав найбільше балів. За нічиєї перемогу розділено.',
+  'Only the host can reveal results':'Лише ведучий може розкривати результати', 'Wait for voting to finish':'Дочекайтеся завершення голосування',
+  'This round has already been revealed':'Цей раунд уже розкрито', "This player's result is already revealed":'Результат цього гравця вже розкрито', 'Choose a player in this room':'Оберіть гравця цієї кімнати',
+  "Reveal every player's result before the next question":'Розкрийте результати всіх гравців перед наступним запитанням',
+  'Only the host can start a question':'Лише ведучий може починати запитання', 'The game has already started':'Гра вже почалася',
+  'Wait for at least one player to join':'Зачекайте, поки приєднається хоча б один гравець', 'Wait until every player is ready':'Дочекайтеся готовності всіх гравців',
+  'Wait for this question to finish':'Дочекайтеся завершення цього запитання', 'Players can get ready in the lobby':'Позначити готовність можна в кімнаті очікування',
+  'The answer window is closed':'Час на відповідь вичерпано', 'The voting window is closed':'Голосування завершено',
+  'Write an answer with 1–100 characters':'Введіть відповідь завдовжки від 1 до 100 символів', 'Your answer is already locked in':'Вашу відповідь уже прийнято',
+  'Your vote is already locked in':'Ваш голос уже прийнято', 'Choose an option other than your own answer':'Оберіть інший варіант, крім власної відповіді',
+  'Choose one of the available options':'Оберіть один із доступних варіантів', 'Unknown game action':'Невідома ігрова дія',
+  'Open the game directly to continue':'Відкрийте гру напряму, щоб продовжити', 'Please send valid JSON':'Надішліть коректні дані JSON', 'Please send a single JSON object':'Надішліть один об’єкт JSON',
+  'Give your quiz a title (up to 80 characters)':'Додайте назву вікторини (до 80 символів)', 'A quiz needs exactly 10 questions':'Вікторина має містити рівно 10 запитань',
+  'Not found':'Не знайдено', 'Quiz not found':'Вікторину не знайдено', 'Choose one of your quizzes first':'Спершу оберіть свою вікторину',
+  "That room doesn't exist. Check the room code.":'Такої кімнати немає. Перевірте код.', 'This game has already started':'Ця гра вже почалася',
+  'Enter a name with 1–24 characters':'Введіть ім’я завдовжки від 1 до 24 символів', 'That name is taken. Try another one.':'Це ім’я вже зайняте. Оберіть інше.',
+  'This room is full (20 players)':'Кімната заповнена (20 гравців)', 'Room not found':'Кімнату не знайдено', 'Join this room to see the game':'Приєднайтеся до кімнати, щоб побачити гру'
+};
+let language;
+try { language = JSON.parse(localStorage.getItem('options:language')); } catch { /* Use browser preference. */ }
+if (!['en','uk'].includes(language)) language = navigator.language?.startsWith('uk') ? 'uk' : 'en';
+function t(source, values = {}) {
+  let text = language === 'uk' ? (ukrainian[source] ?? source) : source;
+  if (language === 'uk' && text === source) {
+    text = text.replace(/^Question (\d+): the host lie must differ from the correct answer$/, 'Запитання $1: вигадка ведучого має відрізнятися від правильної відповіді')
+      .replace(/^Question (\d+) needs a prompt \(up to 300 characters\), a correct answer and a host lie \(up to 100 each\)$/, 'Запитання $1: додайте текст (до 300 символів), правильну відповідь і вигадку ведучого (до 100 символів кожна)');
+  }
+  return text.replace(/\{(\w+)\}/g, (match,key) => values[key] ?? match);
+}
+function translateMarkup(markup) {
+  if (language === 'en') return markup;
+  return markup.replace(/(^|>)([^<>]+)(?=<|$)/g, (match,open,text) => {
+    const key = text.trim().replace(/\s+/g,' ');
+    return open + (ukrainian[key] ? text.replace(text.trim(), ukrainian[key]) : text);
+  }).replace(/(placeholder|aria-label)="([^"]*)"/g, (match,attr,text) => `${attr}="${t(text)}"`);
+}
+function html(parts, ...values) {
+  return parts.reduce((out,part,i) => out + translateMarkup(part) + (i < values.length ? values[i] : ''),'');
+}
